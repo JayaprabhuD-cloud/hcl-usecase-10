@@ -1,6 +1,6 @@
   terraform {
   backend "s3" {
-    bucket = "terraform-remote-state-bucket-s3-hcl"
+    bucket = "bayer-new-terraform-remote-state-bucket"
     key    = "usecase10/terraform.tfstate"
     region = "ap-south-1" 
  

@@ -5,7 +5,7 @@
     region = "ap-south-1" 
  
     # For State Locking
-    dynamodb_table = "terraform-locks"    
+    #dynamodb_table = "terraform-locks"    
   } 
   }
 

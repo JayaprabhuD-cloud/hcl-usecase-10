@@ -1,5 +1,5 @@
 resource "aws_instance" "this" {
-  ami           = "ami-0af9569868786b23a"
+  ami           = "ami-0f918f7e67a3323f0"
   instance_type = "t2.medium"
   subnet_id     = var.subnet_id
   vpc_security_group_ids = var.vpc_security_group_ids
